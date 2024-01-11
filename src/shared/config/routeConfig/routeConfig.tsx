@@ -1,7 +1,6 @@
-import { AboutPage } from "pages/AboutPage";
-import { MainPage } from "pages/MainPage";
-import { RouteProps } from "react-router-dom";
-
+import { AboutPage } from 'pages/AboutPage';
+import { MainPage } from 'pages/MainPage';
+import { RouteProps } from 'react-router-dom';
 
 export enum AppRoutes {
     MAIN = 'main',
@@ -13,8 +12,8 @@ type isPaths = {
 }
 export const RoutePath: isPaths = {
     [AppRoutes.MAIN]: '/',
-    [AppRoutes.ABOUT]: '/about'
-}
+    [AppRoutes.ABOUT]: '/about',
+};
 
 type isConfig = {
     [AppRoutes: string]: RouteProps;
@@ -22,10 +21,10 @@ type isConfig = {
 export const routerConfig: isConfig = {
     [AppRoutes.ABOUT]: {
         path: RoutePath.about,
-        element: <AboutPage/>
+        element: <AboutPage />,
     },
     [AppRoutes.MAIN]: {
         path: RoutePath.main,
-        element: <MainPage/> 
-    }
-}
+        element: <MainPage />,
+    },
+};
