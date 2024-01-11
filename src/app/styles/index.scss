@@ -1,15 +1,13 @@
-@import "reset.scss";
-@import "variables/global.scss";
-@import "theme/light.scss";
-@import "theme/dark.scss";
+@import "reset";
+@import "variables/global";
+@import "theme/light";
+@import "theme/dark";
 
 
 .app {
     font: var(--font-m);
-
     background: var(--bg-color);
     color: var(--primary-color);
-
     min-height: 100vh;
 }
 
@@ -21,6 +19,7 @@ a {
     font-size: 30px;
     text-decoration: none;
 }
+
 button {
     font: var(--font-l);
 }
