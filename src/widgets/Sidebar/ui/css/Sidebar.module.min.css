@@ -1,0 +1,1 @@
+.Sidebar{height:calc(100vh - var(--navbar-height));width:var(--sidebar-width);background:var(--inverted-bg-color);position:relative;-webkit-transition:width .3s;transition:width .3s}.collapsed{width:var(--sidebar-width-collapsed)}.switchers{position:absolute;bottom:20px;left:50%;-webkit-transform:translate(-50%);transform:translate(-50%)}
