@@ -2,5 +2,8 @@
   "Тестовый перевод": "Test translation",
   "Язык": "Русский",
   "Главная": "Home",
-  "О нас": "About"
+  "О нас": "About",
+  "Страница не найдена": "Page Not Found",
+  "PageError": "Something went wrong",
+  "reloadPage": "reload page"
 }

@@ -5,7 +5,7 @@ import { classNames } from 'shared/lib/classNames/classNames';
 import 'app/styles/index.scss';
 import { Navbar } from 'widgets/Navbar';
 import { Sidebar } from 'widgets/Sidebar';
-import { Suspense } from 'react';
+import { Suspense, useEffect } from 'react';
 
 const App = () => {
     const { theme } = useTheme();
