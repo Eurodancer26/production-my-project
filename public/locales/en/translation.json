@@ -5,5 +5,6 @@
   "О нас": "About",
   "Страница не найдена": "Page Not Found",
   "PageError": "Something went wrong",
-  "reloadPage": "reload page"
+  "reloadPage": "reload page",
+  "BugButton": "throw error"
 }
