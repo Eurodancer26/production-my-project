@@ -9,8 +9,15 @@ export const Navbar = () => {
 
         <div className={classNames(cls.Navbar, {}, [])}>
             <div className={cls.links}>
-                <AppLink theme={AppLinkTheme.SECONDARY} to="/" className={cls.mainLink}>{t('Главная')}</AppLink>
-                <AppLink theme={AppLinkTheme.RED} to="about">{t('О нас')}</AppLink>
+                <AppLink 
+                    theme={AppLinkTheme.SECONDARY} 
+                    to="/" 
+                    className={cls.mainLink}>{t('Главная')}
+                </AppLink>
+                <AppLink 
+                    theme={AppLinkTheme.RED} 
+                    to="about">{t('О нас')}
+                </AppLink>
             </div>
         </div>
     );

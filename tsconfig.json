@@ -40,9 +40,9 @@
   },
   "types": ["jest", "node", "@types/jest", "@types/testing-library__jest-dom"],
   "include": [
-    "**/*.ts",
-    "**/*.tsx",
-    
+    "./**/*.ts",
+    "./src/**/*.tsx",
+    "./config/jest/setupTests.ts", "config/storybook/preview.ts", "config/storybook/main.ts", "src/shared/config/storybook/RouterDecorator/RouterDecorator.ts",
   ],
   
 }
