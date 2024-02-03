@@ -1,17 +1,16 @@
-name: lintind, testing, building
-run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
+name: linting, testing, building
 on:
   push:
     branches: [ master ]
   pull_request:
-    branches: [ master ] 
+    branches: [ master ]
 jobs:
-    
   pipeline:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [ 21.x ]
+        node-version: [ 17.x ]
+
     steps:
       - uses: actions/checkout@v2
       - name: Staring Node.js ${{ matrix.node-version }}
@@ -24,7 +23,7 @@ jobs:
         run: npm run build:prod
       - name: linting typescript
         run: npm run lint:ts
-      - name: linting scss
+      - name: linting css
         run: npm run lint:scss
       - name: unit testing
         run: npm run test:unit
@@ -32,5 +31,3 @@ jobs:
         run: npm run sbk:build
       - name: screenshot testing
         run: npm run test:ui:ci
-    # - run: echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
-    # - name: Check out repository code
