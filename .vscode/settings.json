@@ -1,4 +1,7 @@
 {
     "react-i18n.i18nPaths": "src\\shared\\config\\i18n",
-    "react-i18n-joj.i18nPaths": "public\\locales,src\\shared\\config\\i18n"
+    "react-i18n-joj.i18nPaths": "public\\locales,src\\shared\\config\\i18n",
+    "github-actions.workflows.pinned.workflows": [
+        ".github/workflows/main.yml"
+    ]
 }
