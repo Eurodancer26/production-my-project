@@ -8,14 +8,14 @@ import Loader from './Loader';
 
 
 const meta = {
-  title: 'shared/Loader',
-  component: Loader,
-  parameters: {
+    title: 'shared/Loader',
+    component: Loader,
+    parameters: {
 
-    layout: 'centered',
-  },
+        layout: 'centered',
+    },
 
-  tags: ['autodocs'],
+    tags: ['autodocs'],
 
 
 } satisfies Meta<typeof Loader>;
@@ -27,8 +27,8 @@ type Story = StoryObj<typeof meta>;
 export const light: Story = {};
 
 export const Dark: Story = {
-  decorators: [
+    decorators: [
     
-    ThemeDecorator(Theme.DARK)
-  ]
+        ThemeDecorator(Theme.DARK)
+    ]
 };

@@ -10,14 +10,14 @@ import MainPage from './MainPage';
 
 
 const meta = {
-  title: 'pages/MainPage',
-  component: MainPage,
-  parameters: {
+    title: 'pages/MainPage',
+    component: MainPage,
+    parameters: {
 
-    layout: 'centered',
-  },
+        layout: 'centered',
+    },
 
-  tags: ['autodocs'],
+    tags: ['autodocs'],
 
 
 } satisfies Meta<typeof MainPage>;
@@ -29,7 +29,7 @@ type Story = StoryObj<typeof meta>;
 export const light: Story = {};
 
 export const Dark: Story = {
-  decorators: [
-    ThemeDecorator(Theme.DARK)
-  ]
+    decorators: [
+        ThemeDecorator(Theme.DARK)
+    ]
 };

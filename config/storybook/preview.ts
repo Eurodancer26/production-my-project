@@ -5,20 +5,20 @@ import { StyleDecorator } from "shared/config/storybook/StyleDecorator/StyleDeco
 import { ThemeDecorator } from "shared/config/storybook/ThemeDecorator/ThemeDecorator";
 
 const preview: Preview = {
-  decorators: [
-    StyleDecorator, 
-    ThemeDecorator(Theme.LIGHT),
-    RouterDecorator
-  ],
-  parameters: {
-    actions: { argTypesRegex: "^on[A-Z].*" },
-    controls: {
-      matchers: {
-        color: /(background|color)$/i,
-        date: /Date$/i,
-      },
+    decorators: [
+        StyleDecorator, 
+        ThemeDecorator(Theme.LIGHT),
+        RouterDecorator
+    ],
+    parameters: {
+        actions: { argTypesRegex: "^on[A-Z].*" },
+        controls: {
+            matchers: {
+                color: /(background|color)$/i,
+                date: /Date$/i,
+            },
+        },
     },
-  },
 };
 
 export default preview;

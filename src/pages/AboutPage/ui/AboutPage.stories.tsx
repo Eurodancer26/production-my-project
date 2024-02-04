@@ -10,14 +10,14 @@ import AboutPage from './AboutPage';
 
 
 const meta = {
-  title: 'pages/AboutPage',
-  component: AboutPage,
-  parameters: {
+    title: 'pages/AboutPage',
+    component: AboutPage,
+    parameters: {
 
-    layout: 'centered',
-  },
+        layout: 'centered',
+    },
 
-  tags: ['autodocs'],
+    tags: ['autodocs'],
 
 
 } satisfies Meta<typeof AboutPage>;
@@ -31,8 +31,8 @@ export const light: Story = {
 };
 
 export const Dark: Story = {
-  decorators: [
+    decorators: [
     
-    ThemeDecorator(Theme.DARK)
-  ]
+        ThemeDecorator(Theme.DARK)
+    ]
 };

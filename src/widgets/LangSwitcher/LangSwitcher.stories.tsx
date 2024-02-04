@@ -9,14 +9,14 @@ import LangSwitcher from './LangSwitcher';
 
 
 const meta = {
-  title: 'widgets/LangSwitcher',
-  component: LangSwitcher,
-  parameters: {
+    title: 'widgets/LangSwitcher',
+    component: LangSwitcher,
+    parameters: {
 
-    layout: 'centered',
-  },
+        layout: 'centered',
+    },
 
-  tags: ['autodocs'],
+    tags: ['autodocs'],
 
 
 } satisfies Meta<typeof LangSwitcher>;
@@ -27,4 +27,4 @@ type Story = StoryObj<typeof meta>;
 export const light: Story = {};
 
 export const Dark: Story = {};
-  Dark.decorators = [ThemeDecorator(Theme.DARK)];
+Dark.decorators = [ThemeDecorator(Theme.DARK)];

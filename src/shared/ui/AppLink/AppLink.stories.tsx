@@ -5,17 +5,17 @@ import { AppLink, AppLinkTheme } from './AppLink';
 
 
 const meta = {
-  title: 'shared/AppLink',
-  component: AppLink,
-  parameters: {
+    title: 'shared/AppLink',
+    component: AppLink,
+    parameters: {
 
-    layout: 'centered',
-  },
+        layout: 'centered',
+    },
 
-  tags: ['autodocs'],
-  args: {
-    to: '/'
-  }
+    tags: ['autodocs'],
+    args: {
+        to: '/'
+    }
 
 } satisfies Meta<typeof AppLink>;
 
@@ -27,30 +27,30 @@ export const Primary: Story = {
     args: {
         children: 'Primary',
         theme: AppLinkTheme.PRIMARY,
-      },
+    },
 };
 
 export const Secondary: Story = {
     args: {
         children: 'Secondary',
         theme: AppLinkTheme.SECONDARY,
-      },
+    },
 };
 
 export const Red: Story = {
     args: {
         children: 'Red',
         theme: AppLinkTheme.RED,
-      },
+    },
 };
 
 export const PrimaryDark: Story = {
     args: {
         children: 'PrimaryDark',
         theme: AppLinkTheme.PRIMARY,
-      },
+    },
     decorators: [
-    ThemeDecorator(Theme.DARK)
+        ThemeDecorator(Theme.DARK)
     ]
 };
 
@@ -58,9 +58,9 @@ export const SecondaryDark: Story = {
     args: {
         children: 'SecondaryDark',
         theme: AppLinkTheme.SECONDARY,
-      },
+    },
     decorators: [
-    ThemeDecorator(Theme.DARK)
+        ThemeDecorator(Theme.DARK)
     ]
 };
 
@@ -68,8 +68,8 @@ export const RedDark: Story = {
     args: {
         children: 'RedDark',
         theme: AppLinkTheme.RED,
-      },
-      decorators: [
+    },
+    decorators: [
         ThemeDecorator(Theme.DARK)
-      ]
+    ]
 };

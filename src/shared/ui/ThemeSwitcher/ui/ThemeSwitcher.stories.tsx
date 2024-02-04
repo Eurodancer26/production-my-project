@@ -8,14 +8,14 @@ import ThemeSwitcher from './ThemeSwitcher';
 
 
 const meta = {
-  title: 'shared/ThemeSwitcher',
-  component: ThemeSwitcher,
-  parameters: {
+    title: 'shared/ThemeSwitcher',
+    component: ThemeSwitcher,
+    parameters: {
 
-    layout: 'centered',
-  },
+        layout: 'centered',
+    },
 
-  tags: ['autodocs'],
+    tags: ['autodocs'],
 
 
 } satisfies Meta<typeof ThemeSwitcher>;
@@ -29,8 +29,8 @@ export const light: Story = {
 };
 
 export const Dark: Story = {
-  decorators: [
+    decorators: [
     
-    ThemeDecorator(Theme.DARK)
-  ]
+        ThemeDecorator(Theme.DARK)
+    ]
 };

@@ -6,14 +6,14 @@ import {Sidebar} from 'widgets/Sidebar';
 
 
 const meta = {
-  title: 'widgets/Sidebar',
-  component: Sidebar,
-  parameters: {
+    title: 'widgets/Sidebar',
+    component: Sidebar,
+    parameters: {
 
-    layout: 'centered',
-  },
+        layout: 'centered',
+    },
 
-  tags: ['autodocs'],
+    tags: ['autodocs'],
 
 
 } satisfies Meta<typeof Sidebar>;
@@ -24,4 +24,4 @@ type Story = StoryObj<typeof meta>;
 export const light: Story = {};
 
 export const Dark: Story = {};
-  Dark.decorators = [ThemeDecorator(Theme.DARK)];
+Dark.decorators = [ThemeDecorator(Theme.DARK)];

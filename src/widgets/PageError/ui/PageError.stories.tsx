@@ -6,14 +6,14 @@ import PageError from './PageError';
 
 
 const meta = {
-  title: 'widgets/PageError',
-  component: PageError,
-  parameters: {
+    title: 'widgets/PageError',
+    component: PageError,
+    parameters: {
 
-    layout: 'centered',
-  },
+        layout: 'centered',
+    },
 
-  tags: ['autodocs'],
+    tags: ['autodocs'],
 
 
 } satisfies Meta<typeof PageError>;
@@ -24,4 +24,4 @@ type Story = StoryObj<typeof meta>;
 export const light: Story = {};
 
 export const Dark: Story = {};
-  Dark.decorators = [ThemeDecorator(Theme.DARK)];
+Dark.decorators = [ThemeDecorator(Theme.DARK)];

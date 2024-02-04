@@ -6,30 +6,30 @@ import { Theme } from 'app/providers/ThemeProvider';
 
 
 const meta = {
-  title: 'shared/Button',
-  component: Button,
-  parameters: {
+    title: 'shared/Button',
+    component: Button,
+    parameters: {
 
-    layout: 'centered',
-  },
+        layout: 'centered',
+    },
 
-  tags: ['autodocs'],
+    tags: ['autodocs'],
 } satisfies Meta<typeof Button>;
 
 export default meta;
 type Story = StoryObj<typeof meta>;
 
 export const Primary: Story = {
-  args: {
-    children: 'Button',
-  },
+    args: {
+        children: 'Button',
+    },
 };
 
 export const Clear: Story = {
-  args: {
-    children: 'Clear',
-    theme: ThemeButton.CLEAR,
-  },
+    args: {
+        children: 'Clear',
+        theme: ThemeButton.CLEAR,
+    },
 };
 
 export const OutlineDark: Story = {
@@ -37,7 +37,7 @@ export const OutlineDark: Story = {
         children: 'Outline',
         theme: ThemeButton.OUTLINE,
     },
-  };
-  OutlineDark.decorators= [
+};
+OutlineDark.decorators= [
     ThemeDecorator(Theme.DARK)
-  ] 
+] 

@@ -7,14 +7,14 @@ import PageLoader from './PageLoader';
 
 
 const meta = {
-  title: 'widgets/PageLoader',
-  component: PageLoader,
-  parameters: {
+    title: 'widgets/PageLoader',
+    component: PageLoader,
+    parameters: {
 
-    layout: 'centered',
-  },
+        layout: 'centered',
+    },
 
-  tags: ['autodocs'],
+    tags: ['autodocs'],
 
 
 } satisfies Meta<typeof PageLoader>;
@@ -25,4 +25,4 @@ type Story = StoryObj<typeof meta>;
 export const light: Story = {};
 
 export const Dark: Story = {};
-  Dark.decorators = [ThemeDecorator(Theme.DARK)];
+Dark.decorators = [ThemeDecorator(Theme.DARK)];
