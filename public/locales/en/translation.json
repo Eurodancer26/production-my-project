@@ -6,5 +6,6 @@
   "Страница не найдена": "Page Not Found",
   "PageError": "Something went wrong",
   "reloadPage": "reload page",
-  "BugButton": "throw error"
+  "BugButton": "throw error",
+  "TOGGLE": "TOGGLE"
 }
