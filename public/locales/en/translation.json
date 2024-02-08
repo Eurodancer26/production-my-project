@@ -1,8 +1,9 @@
 {
   "Тестовый перевод": "Test translation",
-  "Язык": "Русский",
+  "lang": "Русский",
+  "shortLang": "Ru",
   "Главная": "Home",
-  "О нас": "About",
+  "О нас": "About us",
   "Страница не найдена": "Page Not Found",
   "PageError": "Something went wrong",
   "reloadPage": "reload page",
