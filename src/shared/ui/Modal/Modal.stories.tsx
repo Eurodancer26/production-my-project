@@ -17,7 +17,7 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const LIGHT: Story = {
+export const Primary: Story = {
     args: {
         isOpen: true,
         children: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Cum atque a nam praesentium repellat sequi esse optio. Corporis, blanditiis autem!",
