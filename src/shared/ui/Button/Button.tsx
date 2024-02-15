@@ -5,7 +5,9 @@ import 'app/styles/index.scss';
 
 export enum ButtonTheme {
     CLEAR = 'clear',
+    CLEAR_INVERTED = 'clearInverted',
     OUTLINE = 'outline',
+    OUTLINE_INVERTED = 'outlineInverted',
     BACKGROUND = 'background',
     BACKGROUND_INVERTED = 'backgroundInverted'
 }
@@ -29,7 +31,7 @@ export const Button: FC<ButtonProps> = (props) => {
         children,
         theme,
         square,
-        size=ButtonSize.M,
+        size=ButtonSize.L,
         ...otherProps
     } = props;
 
