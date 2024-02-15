@@ -20,17 +20,13 @@ export const Navbar = () => {
             <Button 
                 theme = {ButtonTheme.CLEAR_INVERTED} 
                 className={cls.links}
-                onClick={onToggleModal}
-            >
+                onClick={onToggleModal}>
                 {t("Войти")}
             </Button>
-            <Modal 
+            <Modal
                 isOpen={isAuthModal} 
-                onClose={onToggleModal}
-            >
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Cum atque a nam praesentium repellat sequi esse optio. 
-                Corporis, blanditiis autem!
+                onClose={onToggleModal}>
+                {t('Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum atque a nam praesentium repellat sequi esse optio. Corporis, blanditiis autem!')}
             </Modal>
         </div>
     );

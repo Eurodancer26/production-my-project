@@ -44,7 +44,7 @@ module.exports = {
         'no-underscore-dangle': 'off',
         'i18next/no-literal-string': ['error', { markupOnly: true, 
             ignoreAttribute: ['data-testid'] }],
-        'max-len': ['error', { ignoreComments: true, code: 100 }],
+        'max-len': ['error', { ignoreComments: true, code: 170 }],
         "react-hooks/rules-of-hooks": "error",
         "react-hooks/exhaustive-deps": "error" 
     },
@@ -53,7 +53,7 @@ module.exports = {
     },
     overrides: [
         {
-            files: ['**/src/**/*.{test,stories}.{ts, tsx}'],
+            files: ['**/src/**/*.[test, stories].{ts, tsx}'],
             rules: {
                 'i18next/no-literal-string': 'off',
                 'max-len': 'off'

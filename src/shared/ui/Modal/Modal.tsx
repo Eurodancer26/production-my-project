@@ -23,17 +23,16 @@ export const Modal = ({className, children, isOpen, onClose}: ModalProps) => {
     const timerRef = useRef<ReturnType<typeof setTimeout>>();
     const {theme} = useTheme();
 
-    enum timerClose {
-        ANIMATION_DELAY = 200
-    };
+    const ANIMATION_DELAY = 200;
+    
 
     const closeHandler = useCallback(() => {
         if (onClose) {
             setIsClosing(true);
             timerRef.current = setTimeout(() => {
                 onClose();
-                setIsClosing(false)
-            }, timerClose.ANIMATION_DELAY)
+                setIsClosing(false);
+            }, ANIMATION_DELAY)
         }
     }, [onClose])
 
