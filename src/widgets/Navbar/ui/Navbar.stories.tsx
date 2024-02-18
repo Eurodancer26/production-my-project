@@ -1,11 +1,10 @@
-import type { Decorator, Meta, StoryObj } from '@storybook/react';
-
+import type { Meta, StoryObj } from '@storybook/react';
 import { ThemeDecorator } from 'shared/config/storybook/ThemeDecorator/ThemeDecorator';
 import { Theme } from 'app/providers/ThemeProvider';
-
 import { Navbar } from './Navbar';
-import { BrowserRouter } from 'react-router-dom';
-import { RouterDecorator } from 'shared/config/storybook/RouterDecorator/RouterDecorator';
+import { Button } from 'shared/ui/Button/Button';
+import Modal from 'shared/ui/Modal/Modal';
+
 
 
 const meta = {
@@ -29,7 +28,6 @@ export const light: Story = {};
 
 export const Dark: Story = {
     decorators: [
-    
         ThemeDecorator(Theme.DARK)
     ]
 };
