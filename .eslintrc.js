@@ -24,6 +24,7 @@ module.exports = {
         'react-hooks'
     ],
     rules: {
+        'indent': 'off',
         'react/jsx-indent': [2, 4],
         'react/jsx-indent-props': [2, 4],
         indent: [2, 4],
@@ -46,7 +47,8 @@ module.exports = {
             ignoreAttribute: ['data-testid'] }],
         'max-len': ['error', { ignoreComments: true, code: 170 }],
         "react-hooks/rules-of-hooks": "error",
-        "react-hooks/exhaustive-deps": "error" 
+        "react-hooks/exhaustive-deps": "error",
+        'no-param-reassign': 'off'
     },
     globals: {
         __IS_DEV__: true,
@@ -56,7 +58,7 @@ module.exports = {
             files: ['**/src/**/*.[test, stories].{ts, tsx}'],
             rules: {
                 'i18next/no-literal-string': 'off',
-                'max-len': 'off'
+                'max-len': 'off',
             }
         }
     ]

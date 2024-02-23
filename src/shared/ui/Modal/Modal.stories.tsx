@@ -19,14 +19,14 @@ export default meta;
 type Story = StoryObj<typeof meta>;
 
 
-export const light: Story = {
+export const ModalLight: Story = {
     args: {
         isOpen: true
     },
 
 };
 
-export const Dark: Story = {
+export const ModalDark: Story = {
     args: {
         isOpen: true
     },

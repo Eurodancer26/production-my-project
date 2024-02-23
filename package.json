@@ -39,9 +39,11 @@
     "@storybook/blocks": "^7.6.10",
     "@storybook/react": "^7.6.10",
     "@storybook/test": "^7.6.10",
+    "@storybook/testing-library": "^0.2.2",
     "@svgr/webpack": "^8.1.0",
     "@testing-library/jest-dom": "^6.2.0",
     "@testing-library/react": "^14.1.2",
+    "@testing-library/user-event": "^14.5.2",
     "@types/jest": "^29.5.11",
     "@types/node": "^20.10.5",
     "@types/react": "^18.2.46",
@@ -90,6 +92,7 @@
     "webpack-dev-server": "^4.15.1"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^2.2.1",
     "@storybook/react-webpack5": "^7.6.10",
     "i18next": "^23.7.16",
     "i18next-browser-languagedetector": "^7.2.0",
@@ -98,6 +101,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-i18next": "^14.0.0",
+    "react-redux": "^9.1.0",
     "react-router-dom": "^6.21.1"
   },
   "loki": {
