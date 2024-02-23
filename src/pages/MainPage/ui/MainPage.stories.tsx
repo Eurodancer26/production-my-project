@@ -15,7 +15,7 @@ const meta = {
         (Story) => (
             <StoreProvider>
                 
-                    <Story />
+                <Story />
                 
             </StoreProvider>
         ),
