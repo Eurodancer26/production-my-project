@@ -5,7 +5,6 @@ import 'app/styles/index.scss';
 import { Navbar } from 'widgets/Navbar';
 import { Sidebar } from 'widgets/Sidebar';
 import { Suspense, useState } from 'react';
-import Modal from 'shared/ui/Modal/Modal';
 
 const App = () => {
     const { theme } = useTheme();

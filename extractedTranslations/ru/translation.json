@@ -8,6 +8,8 @@
   "Not Found Page": "",
   "PageError": "PageError",
   "TOGGLE": "TOGGLE",
+  "decrement": "decrement",
+  "increment": "increment",
   "reloadPage": "reloadPage",
   "throw error": "throw error",
   "Войти": "Войти",
